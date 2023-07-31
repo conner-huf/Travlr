@@ -6,11 +6,13 @@ const tripsController = require("../controllers/trips");
 router
   .route("/trips")
   .get(tripsController.tripsList)
-  .post(auth, tripsController.tripsAddTrip);
+  .post(tripsController.tripsAddTrip);
 
 router
   .route("/trips/:tripCode")
-  .get(tripsController.tripsFindCode)
+  .get(tripsController.tripsList)
   .put(tripsController.tripsUpdateTrip);
 
-  module.exports = router;
+router.route("/trips/:tripCode").get(tripsController.tripsFindCode);
+
+module.exports = router;
