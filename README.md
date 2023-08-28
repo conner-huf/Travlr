@@ -1,5 +1,16 @@
-# CS465-fullstack
-CS-465 Full Stack Development with MEAN
+# Travlr
+Website for Travlr agency built for capstone Computer Science course: CS-465 Full Stack Development I
+
+Technologies used for this project:
+- Angular
+- MongoDB
+- Express
+- Handlebars
+- HTML
+- CSS
+- Javascript
+- Typescript
+
 
 - Angular follows a more elaborate structure and is used for building front-end applications. Whereas Express is used for basic server-side functionality and uses a much simpler structure.
 SPA functionality typically can provide a much more positive user experience and can update in real time without needing to reload the whole page. However, this usually means that the SPA requires a longer initial load time for the whole application to be downloaded up front.
