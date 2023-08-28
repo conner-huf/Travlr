@@ -1,5 +1,5 @@
 # Travlr
-Website for Travlr agency built for capstone Computer Science course: CS-465 Full Stack Development I
+Website for Travlr agency -- built for capstone Computer Science course: CS-465 Full Stack Development I
 
 Technologies used for this project:
 - Angular
